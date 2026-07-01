@@ -1,5 +1,6 @@
 /* ===== Variables ===== */
 :root {
+  color-scheme: dark;
   --graphite-950: #08090b;
   --graphite-900: #0a0c0e;
   --graphite-800: #12161a;
@@ -908,48 +909,4 @@ iframe {
   }
 }
 
-/* ===== Light mode (optional) ===== */
-@media (prefers-color-scheme: light) {
-  body {
-    background: #f5f6f7;
-    color: #14181c;
-  }
-
-  .glass,
-  .glass-card,
-  .btn-glass {
-    background: rgba(255, 255, 255, 0.7);
-    border-color: rgba(0, 0, 0, 0.08);
-  }
-
-  .hero__title,
-  .section-title,
-  .logo,
-  .card-value,
-  .hero__rating-value {
-    color: #14181c;
-  }
-
-  .hero__desc,
-  .section-text,
-  .hero__rating,
-  .nav-desktop a:not(.btn),
-  .card-label,
-  .hours-list li span:first-child,
-  .review-text {
-    color: #5c646e;
-  }
-
-  .mobile-menu {
-    background: rgba(245, 246, 247, 0.98);
-  }
-
-  .mobile-link {
-    color: #14181c;
-  }
-
-  .sticky-bar {
-    background: rgba(245, 246, 247, 0.95);
-    border-color: rgba(0, 0, 0, 0.1);
-  }
-}
+/* ===== Light mode вимкнено навмисно — сайт завжди темний ===== */
